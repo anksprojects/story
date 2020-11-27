@@ -664,7 +664,7 @@ p {
 }
 
 /* Buttons */
-.btn {
+.btn,.btn-ondark {
 	width: 150px;
 	height: 45px;
 	border: none;
@@ -672,6 +672,10 @@ p {
 	border-radius: 5px;
 }
 
+.btn-ondark:hover{
+box-shadow: none !important;
+transition: none !important;
+}
 .btn-pri {
 	background: #2F0DFF !important;
 }
